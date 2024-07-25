@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0D9BF72C14C44600031CE7 /* GlobeGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9BF62C14C44600031CE7 /* GlobeGuideApp.swift */; };
+		CD0D9BFB2C14C44700031CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0D9BFA2C14C44700031CE7 /* Assets.xcassets */; };
+		CD0D9BFE2C14C44700031CE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0D9BFD2C14C44700031CE7 /* Preview Assets.xcassets */; };
+		CD0D9C082C14C44800031CE7 /* GlobeGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C072C14C44800031CE7 /* GlobeGuideTests.swift */; };
+		CD0D9C122C14C44800031CE7 /* GlobeGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C112C14C44800031CE7 /* GlobeGuideUITests.swift */; };
+		CD0D9C142C14C44800031CE7 /* GlobeGuideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C132C14C44800031CE7 /* GlobeGuideUITestsLaunchTests.swift */; };
+		CD0D9C212C14FACF00031CE7 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C202C14FACF00031CE7 /* HomeScreen.swift */; };
+		CD0D9C232C14FAF700031CE7 /* FlightSearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C222C14FAF700031CE7 /* FlightSearchScreen.swift */; };
+		CD0D9C252C14FB0D00031CE7 /* HotelSearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C242C14FB0D00031CE7 /* HotelSearchScreen.swift */; };
+		CD0D9C272C14FB2300031CE7 /* MapsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C262C14FB2300031CE7 /* MapsScreen.swift */; };
+		CD0D9C292C14FB4700031CE7 /* FlightResultsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C282C14FB4700031CE7 /* FlightResultsScreen.swift */; };
+		CD0D9C2B2C14FB6400031CE7 /* TravelItinenaryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C2A2C14FB6400031CE7 /* TravelItinenaryScreen.swift */; };
+		CD0D9C322C152F9300031CE7 /* GlobeGuideLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CD0D9C312C152F9300031CE7 /* GlobeGuideLogo.png */; };
+		CD0D9C342C1530A200031CE7 /* HotelResultsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C332C1530A200031CE7 /* HotelResultsScreen.swift */; };
+		CD0D9C362C15379B00031CE7 /* CarRentalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C352C15379B00031CE7 /* CarRentalScreen.swift */; };
+		CD0D9C382C1544B600031CE7 /* PlacesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C372C1544B600031CE7 /* PlacesScreen.swift */; };
+		CD0D9C442C15BD1A00031CE7 /* baga_beach_goa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD0D9C392C15BD1A00031CE7 /* baga_beach_goa.jpeg */; };
+		CD0D9C452C15BD1A00031CE7 /* colosseum_rome.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD0D9C3A2C15BD1A00031CE7 /* colosseum_rome.jpeg */; };
+		CD0D9C462C15BD1A00031CE7 /* eiffel_tower_paris.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD0D9C3B2C15BD1A00031CE7 /* eiffel_tower_paris.jpeg */; };
+		CD0D9C472C15BD1A00031CE7 /* grand_canyon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD0D9C3C2C15BD1A00031CE7 /* grand_canyon.jpeg */; };
+		CD0D9C482C15BD1A00031CE7 /* machu_picchu.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD0D9C3D2C15BD1A00031CE7 /* machu_picchu.jpeg */; };
+		CD0D9C492C15BD1A00031CE7 /* niagara_falls.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD0D9C3E2C15BD1A00031CE7 /* niagara_falls.jpeg */; };
+		CD0D9C4A2C15BD1A00031CE7 /* smokey_mountains.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD0D9C3F2C15BD1A00031CE7 /* smokey_mountains.jpeg */; };
+		CD0D9C4B2C15BD1A00031CE7 /* sydney_opera_house.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD0D9C402C15BD1A00031CE7 /* sydney_opera_house.jpeg */; };
+		CD0D9C4C2C15BD1A00031CE7 /* table_mountain.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD0D9C412C15BD1A00031CE7 /* table_mountain.jpeg */; };
+		CD0D9C4D2C15BD1A00031CE7 /* tokyo_tower.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD0D9C422C15BD1A00031CE7 /* tokyo_tower.jpeg */; };
+		CD0D9C4F2C15C02300031CE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0D9C4E2C15C02300031CE7 /* Images.xcassets */; };
+		CD0D9C5F2C16477400031CE7 /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C5E2C16477400031CE7 /* PlaceDetailView.swift */; };
+		CD0D9C612C16646700031CE7 /* Itinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C602C16646700031CE7 /* Itinerary.swift */; };
+		CD0D9C632C16781A00031CE7 /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C622C16781A00031CE7 /* DirectionsView.swift */; };
+		CD0D9C652C16782D00031CE7 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C642C16782D00031CE7 /* SearchBar.swift */; };
+		CD0D9C672C16784400031CE7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C662C16784400031CE7 /* MapView.swift */; };
+		CD0D9C692C16785600031CE7 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D9C682C16785600031CE7 /* ContentViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD0D9C042C14C44800031CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0D9BEB2C14C44500031CE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD0D9BF22C14C44500031CE7;
+			remoteInfo = GlobeGuide;
+		};
+		CD0D9C0E2C14C44800031CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0D9BEB2C14C44500031CE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD0D9BF22C14C44500031CE7;
+			remoteInfo = GlobeGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD0D9BF32C14C44500031CE7 /* GlobeGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobeGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0D9BF62C14C44600031CE7 /* GlobeGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeGuideApp.swift; sourceTree = "<group>"; };
+		CD0D9BFA2C14C44700031CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD0D9BFD2C14C44700031CE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD0D9C032C14C44800031CE7 /* GlobeGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobeGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0D9C072C14C44800031CE7 /* GlobeGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeGuideTests.swift; sourceTree = "<group>"; };
+		CD0D9C0D2C14C44800031CE7 /* GlobeGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobeGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0D9C112C14C44800031CE7 /* GlobeGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeGuideUITests.swift; sourceTree = "<group>"; };
+		CD0D9C132C14C44800031CE7 /* GlobeGuideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeGuideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD0D9C202C14FACF00031CE7 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		CD0D9C222C14FAF700031CE7 /* FlightSearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchScreen.swift; sourceTree = "<group>"; };
+		CD0D9C242C14FB0D00031CE7 /* HotelSearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelSearchScreen.swift; sourceTree = "<group>"; };
+		CD0D9C262C14FB2300031CE7 /* MapsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsScreen.swift; sourceTree = "<group>"; };
+		CD0D9C282C14FB4700031CE7 /* FlightResultsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightResultsScreen.swift; sourceTree = "<group>"; };
+		CD0D9C2A2C14FB6400031CE7 /* TravelItinenaryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelItinenaryScreen.swift; sourceTree = "<group>"; };
+		CD0D9C2C2C151ECF00031CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CD0D9C2E2C15286800031CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CD0D9C312C152F9300031CE7 /* GlobeGuideLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GlobeGuideLogo.png; sourceTree = "<group>"; };
+		CD0D9C332C1530A200031CE7 /* HotelResultsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelResultsScreen.swift; sourceTree = "<group>"; };
+		CD0D9C352C15379B00031CE7 /* CarRentalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRentalScreen.swift; sourceTree = "<group>"; };
+		CD0D9C372C1544B600031CE7 /* PlacesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesScreen.swift; sourceTree = "<group>"; };
+		CD0D9C392C15BD1A00031CE7 /* baga_beach_goa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baga_beach_goa.jpeg; sourceTree = "<group>"; };
+		CD0D9C3A2C15BD1A00031CE7 /* colosseum_rome.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colosseum_rome.jpeg; sourceTree = "<group>"; };
+		CD0D9C3B2C15BD1A00031CE7 /* eiffel_tower_paris.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eiffel_tower_paris.jpeg; sourceTree = "<group>"; };
+		CD0D9C3C2C15BD1A00031CE7 /* grand_canyon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grand_canyon.jpeg; sourceTree = "<group>"; };
+		CD0D9C3D2C15BD1A00031CE7 /* machu_picchu.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = machu_picchu.jpeg; sourceTree = "<group>"; };
+		CD0D9C3E2C15BD1A00031CE7 /* niagara_falls.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = niagara_falls.jpeg; sourceTree = "<group>"; };
+		CD0D9C3F2C15BD1A00031CE7 /* smokey_mountains.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smokey_mountains.jpeg; sourceTree = "<group>"; };
+		CD0D9C402C15BD1A00031CE7 /* sydney_opera_house.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sydney_opera_house.jpeg; sourceTree = "<group>"; };
+		CD0D9C412C15BD1A00031CE7 /* table_mountain.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = table_mountain.jpeg; sourceTree = "<group>"; };
+		CD0D9C422C15BD1A00031CE7 /* tokyo_tower.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokyo_tower.jpeg; sourceTree = "<group>"; };
+		CD0D9C4E2C15C02300031CE7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD0D9C5E2C16477400031CE7 /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		CD0D9C602C16646700031CE7 /* Itinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Itinerary.swift; sourceTree = "<group>"; };
+		CD0D9C622C16781A00031CE7 /* DirectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
+		CD0D9C642C16782D00031CE7 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		CD0D9C662C16784400031CE7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CD0D9C682C16785600031CE7 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD0D9BF02C14C44500031CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0D9C002C14C44800031CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0D9C0A2C14C44800031CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD0D9BEA2C14C44500031CE7 = {
+			isa = PBXGroup;
+			children = (
+				CD0D9C312C152F9300031CE7 /* GlobeGuideLogo.png */,
+				CD0D9BF52C14C44500031CE7 /* GlobeGuide */,
+				CD0D9C062C14C44800031CE7 /* GlobeGuideTests */,
+				CD0D9C102C14C44800031CE7 /* GlobeGuideUITests */,
+				CD0D9BF42C14C44500031CE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD0D9BF42C14C44500031CE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D9BF32C14C44500031CE7 /* GlobeGuide.app */,
+				CD0D9C032C14C44800031CE7 /* GlobeGuideTests.xctest */,
+				CD0D9C0D2C14C44800031CE7 /* GlobeGuideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD0D9BF52C14C44500031CE7 /* GlobeGuide */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D9C2E2C15286800031CE7 /* Info.plist */,
+				CD0D9BF62C14C44600031CE7 /* GlobeGuideApp.swift */,
+				CD0D9C202C14FACF00031CE7 /* HomeScreen.swift */,
+				CD0D9C372C1544B600031CE7 /* PlacesScreen.swift */,
+				CD0D9C5E2C16477400031CE7 /* PlaceDetailView.swift */,
+				CD0D9C352C15379B00031CE7 /* CarRentalScreen.swift */,
+				CD0D9C222C14FAF700031CE7 /* FlightSearchScreen.swift */,
+				CD0D9C282C14FB4700031CE7 /* FlightResultsScreen.swift */,
+				CD0D9C242C14FB0D00031CE7 /* HotelSearchScreen.swift */,
+				CD0D9C332C1530A200031CE7 /* HotelResultsScreen.swift */,
+				CD0D9C262C14FB2300031CE7 /* MapsScreen.swift */,
+				CD0D9C622C16781A00031CE7 /* DirectionsView.swift */,
+				CD0D9C642C16782D00031CE7 /* SearchBar.swift */,
+				CD0D9C662C16784400031CE7 /* MapView.swift */,
+				CD0D9C682C16785600031CE7 /* ContentViewModel.swift */,
+				CD0D9C2A2C14FB6400031CE7 /* TravelItinenaryScreen.swift */,
+				CD0D9C602C16646700031CE7 /* Itinerary.swift */,
+				CD0D9C432C15BD1A00031CE7 /* Images */,
+				CD0D9BFA2C14C44700031CE7 /* Assets.xcassets */,
+				CD0D9C4E2C15C02300031CE7 /* Images.xcassets */,
+				CD0D9BFC2C14C44700031CE7 /* Preview Content */,
+			);
+			path = GlobeGuide;
+			sourceTree = "<group>";
+		};
+		CD0D9BFC2C14C44700031CE7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D9BFD2C14C44700031CE7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD0D9C062C14C44800031CE7 /* GlobeGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D9C072C14C44800031CE7 /* GlobeGuideTests.swift */,
+			);
+			path = GlobeGuideTests;
+			sourceTree = "<group>";
+		};
+		CD0D9C102C14C44800031CE7 /* GlobeGuideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D9C2C2C151ECF00031CE7 /* Info.plist */,
+				CD0D9C112C14C44800031CE7 /* GlobeGuideUITests.swift */,
+				CD0D9C132C14C44800031CE7 /* GlobeGuideUITestsLaunchTests.swift */,
+			);
+			path = GlobeGuideUITests;
+			sourceTree = "<group>";
+		};
+		CD0D9C432C15BD1A00031CE7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D9C392C15BD1A00031CE7 /* baga_beach_goa.jpeg */,
+				CD0D9C3A2C15BD1A00031CE7 /* colosseum_rome.jpeg */,
+				CD0D9C3B2C15BD1A00031CE7 /* eiffel_tower_paris.jpeg */,
+				CD0D9C3C2C15BD1A00031CE7 /* grand_canyon.jpeg */,
+				CD0D9C3D2C15BD1A00031CE7 /* machu_picchu.jpeg */,
+				CD0D9C3E2C15BD1A00031CE7 /* niagara_falls.jpeg */,
+				CD0D9C3F2C15BD1A00031CE7 /* smokey_mountains.jpeg */,
+				CD0D9C402C15BD1A00031CE7 /* sydney_opera_house.jpeg */,
+				CD0D9C412C15BD1A00031CE7 /* table_mountain.jpeg */,
+				CD0D9C422C15BD1A00031CE7 /* tokyo_tower.jpeg */,
+			);
+			path = Images;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD0D9BF22C14C44500031CE7 /* GlobeGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0D9C172C14C44800031CE7 /* Build configuration list for PBXNativeTarget "GlobeGuide" */;
+			buildPhases = (
+				CD0D9BEF2C14C44500031CE7 /* Sources */,
+				CD0D9BF02C14C44500031CE7 /* Frameworks */,
+				CD0D9BF12C14C44500031CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlobeGuide;
+			productName = GlobeGuide;
+			productReference = CD0D9BF32C14C44500031CE7 /* GlobeGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD0D9C022C14C44800031CE7 /* GlobeGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0D9C1A2C14C44800031CE7 /* Build configuration list for PBXNativeTarget "GlobeGuideTests" */;
+			buildPhases = (
+				CD0D9BFF2C14C44800031CE7 /* Sources */,
+				CD0D9C002C14C44800031CE7 /* Frameworks */,
+				CD0D9C012C14C44800031CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD0D9C052C14C44800031CE7 /* PBXTargetDependency */,
+			);
+			name = GlobeGuideTests;
+			productName = GlobeGuideTests;
+			productReference = CD0D9C032C14C44800031CE7 /* GlobeGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD0D9C0C2C14C44800031CE7 /* GlobeGuideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0D9C1D2C14C44800031CE7 /* Build configuration list for PBXNativeTarget "GlobeGuideUITests" */;
+			buildPhases = (
+				CD0D9C092C14C44800031CE7 /* Sources */,
+				CD0D9C0A2C14C44800031CE7 /* Frameworks */,
+				CD0D9C0B2C14C44800031CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD0D9C0F2C14C44800031CE7 /* PBXTargetDependency */,
+			);
+			name = GlobeGuideUITests;
+			productName = GlobeGuideUITests;
+			productReference = CD0D9C0D2C14C44800031CE7 /* GlobeGuideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD0D9BEB2C14C44500031CE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CD0D9BF22C14C44500031CE7 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					CD0D9C022C14C44800031CE7 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CD0D9BF22C14C44500031CE7;
+					};
+					CD0D9C0C2C14C44800031CE7 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CD0D9BF22C14C44500031CE7;
+					};
+				};
+			};
+			buildConfigurationList = CD0D9BEE2C14C44500031CE7 /* Build configuration list for PBXProject "GlobeGuide" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD0D9BEA2C14C44500031CE7;
+			packageReferences = (
+			);
+			productRefGroup = CD0D9BF42C14C44500031CE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD0D9BF22C14C44500031CE7 /* GlobeGuide */,
+				CD0D9C022C14C44800031CE7 /* GlobeGuideTests */,
+				CD0D9C0C2C14C44800031CE7 /* GlobeGuideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD0D9BF12C14C44500031CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0D9BFE2C14C44700031CE7 /* Preview Assets.xcassets in Resources */,
+				CD0D9C472C15BD1A00031CE7 /* grand_canyon.jpeg in Resources */,
+				CD0D9BFB2C14C44700031CE7 /* Assets.xcassets in Resources */,
+				CD0D9C462C15BD1A00031CE7 /* eiffel_tower_paris.jpeg in Resources */,
+				CD0D9C442C15BD1A00031CE7 /* baga_beach_goa.jpeg in Resources */,
+				CD0D9C4C2C15BD1A00031CE7 /* table_mountain.jpeg in Resources */,
+				CD0D9C322C152F9300031CE7 /* GlobeGuideLogo.png in Resources */,
+				CD0D9C4D2C15BD1A00031CE7 /* tokyo_tower.jpeg in Resources */,
+				CD0D9C492C15BD1A00031CE7 /* niagara_falls.jpeg in Resources */,
+				CD0D9C4F2C15C02300031CE7 /* Images.xcassets in Resources */,
+				CD0D9C482C15BD1A00031CE7 /* machu_picchu.jpeg in Resources */,
+				CD0D9C4A2C15BD1A00031CE7 /* smokey_mountains.jpeg in Resources */,
+				CD0D9C4B2C15BD1A00031CE7 /* sydney_opera_house.jpeg in Resources */,
+				CD0D9C452C15BD1A00031CE7 /* colosseum_rome.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0D9C012C14C44800031CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0D9C0B2C14C44800031CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD0D9BEF2C14C44500031CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0D9BF72C14C44600031CE7 /* GlobeGuideApp.swift in Sources */,
+				CD0D9C612C16646700031CE7 /* Itinerary.swift in Sources */,
+				CD0D9C632C16781A00031CE7 /* DirectionsView.swift in Sources */,
+				CD0D9C362C15379B00031CE7 /* CarRentalScreen.swift in Sources */,
+				CD0D9C252C14FB0D00031CE7 /* HotelSearchScreen.swift in Sources */,
+				CD0D9C342C1530A200031CE7 /* HotelResultsScreen.swift in Sources */,
+				CD0D9C212C14FACF00031CE7 /* HomeScreen.swift in Sources */,
+				CD0D9C672C16784400031CE7 /* MapView.swift in Sources */,
+				CD0D9C692C16785600031CE7 /* ContentViewModel.swift in Sources */,
+				CD0D9C652C16782D00031CE7 /* SearchBar.swift in Sources */,
+				CD0D9C292C14FB4700031CE7 /* FlightResultsScreen.swift in Sources */,
+				CD0D9C5F2C16477400031CE7 /* PlaceDetailView.swift in Sources */,
+				CD0D9C272C14FB2300031CE7 /* MapsScreen.swift in Sources */,
+				CD0D9C232C14FAF700031CE7 /* FlightSearchScreen.swift in Sources */,
+				CD0D9C382C1544B600031CE7 /* PlacesScreen.swift in Sources */,
+				CD0D9C2B2C14FB6400031CE7 /* TravelItinenaryScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0D9BFF2C14C44800031CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0D9C082C14C44800031CE7 /* GlobeGuideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0D9C092C14C44800031CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0D9C122C14C44800031CE7 /* GlobeGuideUITests.swift in Sources */,
+				CD0D9C142C14C44800031CE7 /* GlobeGuideUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD0D9C052C14C44800031CE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD0D9BF22C14C44500031CE7 /* GlobeGuide */;
+			targetProxy = CD0D9C042C14C44800031CE7 /* PBXContainerItemProxy */;
+		};
+		CD0D9C0F2C14C44800031CE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD0D9BF22C14C44500031CE7 /* GlobeGuide */;
+			targetProxy = CD0D9C0E2C14C44800031CE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD0D9C152C14C44800031CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD0D9C162C14C44800031CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD0D9C182C14C44800031CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GlobeGuide/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZJY5QVN55;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlobeGuide/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlopes.GlobeGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD0D9C192C14C44800031CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GlobeGuide/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZJY5QVN55;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlobeGuide/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlopes.GlobeGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD0D9C1B2C14C44800031CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlopes.GlobeGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlobeGuide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlobeGuide";
+			};
+			name = Debug;
+		};
+		CD0D9C1C2C14C44800031CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlopes.GlobeGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlobeGuide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlobeGuide";
+			};
+			name = Release;
+		};
+		CD0D9C1E2C14C44800031CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlobeGuideUITests/Info.plist;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlopes.GlobeGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlobeGuide;
+			};
+			name = Debug;
+		};
+		CD0D9C1F2C14C44800031CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlobeGuideUITests/Info.plist;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nlopes.GlobeGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlobeGuide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD0D9BEE2C14C44500031CE7 /* Build configuration list for PBXProject "GlobeGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0D9C152C14C44800031CE7 /* Debug */,
+				CD0D9C162C14C44800031CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0D9C172C14C44800031CE7 /* Build configuration list for PBXNativeTarget "GlobeGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0D9C182C14C44800031CE7 /* Debug */,
+				CD0D9C192C14C44800031CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0D9C1A2C14C44800031CE7 /* Build configuration list for PBXNativeTarget "GlobeGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0D9C1B2C14C44800031CE7 /* Debug */,
+				CD0D9C1C2C14C44800031CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0D9C1D2C14C44800031CE7 /* Build configuration list for PBXNativeTarget "GlobeGuideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0D9C1E2C14C44800031CE7 /* Debug */,
+				CD0D9C1F2C14C44800031CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD0D9BEB2C14C44500031CE7 /* Project object */;
+}
