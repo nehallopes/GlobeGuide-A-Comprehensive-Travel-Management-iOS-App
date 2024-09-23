@@ -79,7 +79,7 @@ struct PhotoSource: Codable {
 
 class NetworkManager: ObservableObject {
     func fetchImages(for query: String, completion: @escaping ([String]) -> Void) {
-        let apiKey = "kw7OU3OULL3zZKqeT77zTPL93czINm3gpsv5r7kChz6TxN7Te6DBPfM6"
+        let apiKey = "API KEY"
         let urlString = "https://api.pexels.com/v1/search?query=\(query)&per_page=20"
         guard let url = URL(string: urlString) else { return }
 
